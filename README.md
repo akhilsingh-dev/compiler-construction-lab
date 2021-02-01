@@ -1,10 +1,12 @@
 # compiler-construction-lab
 
+<a href="https://github.com/theDrake1010"><img src="https://img.shields.io/badge/Made%20by-theDrake1010-orange.svg"/></a>
+
 This repository holds the code and instructions for the compiler construction lab (Spring 2021).
 
 
 ## Resources
-
+Please refer the resources directory
 
 
 ## How to install Flex and Bison?
