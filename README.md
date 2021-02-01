@@ -70,6 +70,6 @@ If you have Ubuntu on your machine, you can skip the first step...
 
 
 
-## TODO
-1. Add references
-2. Add steps for MacOS(Help needed!)
+## WIP:
+1. [theDrake1010] : Add references
+2. [vaibhavjswl] : Add steps for MacOS
