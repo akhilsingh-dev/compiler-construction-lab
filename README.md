@@ -1,6 +1,7 @@
 # compiler-construction-lab
 
 <a href="https://github.com/theDrake1010"><img src="https://img.shields.io/badge/Made%20by-theDrake1010-orange.svg"/></a>
+<a href="https://github.com/vaibhavjswl"><img src="https://img.shields.io/badge/Made%20by-Vaibhav_Jaiswal-blue.svg"/></a>
 
 This repository holds the code and instructions for the compiler construction lab (Spring 2021).
 
@@ -70,6 +71,61 @@ If you have Ubuntu on your machine, you can skip the first step...
 
 
 
+## For Mac
+
+1. **Install [Homebrew](https://brew.sh/)** : 
+    Homebrew is a package manager for MacOS (kind of like what apt is to linux).
+    After Successfull installation move onto next step.
+
+2. Open terminal :
+
+    a. Update Brew using following commands:
+    ```bash
+    brew update 
+    brew upgrade
+    ```
+    agree with "y" if prompred and it will update brew and all its packages to latest version
+
+    b. Install Flex using following command:
+    ```bash
+    brew install flex
+    ```
+    ![Output of Installing Flex](./images/installing_flex_mac.jpg)
+
+    c. Insall bison using following command : 
+    ```bash
+    brew install bison
+    ```
+    :
+    ![Output of Installing Flex](./images/installing_bison_mac.jpg) 
+
+3. Do a sanity check and test run of the software:
+
+    a. First run a sanity check:
+    ```bash
+    which flex bison
+    ```
+    This should show you the location of installed packages usually:
+    ```bash
+    /usr/bin/flex
+    /usr/bin/bison
+    ```
+
+    b. Run a Basic check program:
+    On your terminal, copy or type the following:
+    ```bash
+    git clone https://github.com/theDrake1010/compiler-construction-lab.git
+    cd ./checks
+    bash run-check.sh
+    ```
+    The output should look like this: *If the checks directory is not modified*
+    ![Output of Running Check](./images/output_mac.jpg)
+
+
 ## WIP:
 1. [theDrake1010] : Add references
-2. [vaibhavjswl] : Add steps for MacOS
+2. [vaibhavjswl] : Add steps for MacOS ---> Done
+
+
+
+
