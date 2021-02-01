@@ -67,3 +67,9 @@ If you have Ubuntu on your machine, you can skip the first step...
     ```
     The output should look like this: *If the checks directory is not modified*
     ![Output of Running Check](./images/check_output.jpg)
+
+
+
+## TODO
+1. Add references
+2. Add steps for MacOS(Help needed!)
