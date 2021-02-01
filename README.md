@@ -59,4 +59,11 @@ If you have Ubuntu on your machine, you can skip the first step...
     /usr/bin/bison
     ```
 
-    b. [TODO] : Add further checks
+    b. Run a Basic check program:
+    On your terminal, copy or type the following:
+    ```bash
+    cd ./checks
+    ./run-check.sh
+    ```
+    The output should look like this: *If the checks directory is not modified*
+    ![Output of Running Check](./images/check_output.jpg)
