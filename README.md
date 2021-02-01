@@ -48,7 +48,6 @@ If you have Ubuntu on your machine, you can skip the first step...
     ![Installing Bison](./images/installing_bison.jpg)
 
 3. Do a sanity check and test run of the software:
-
     a. First run a sanity check:
     ```bash
     which flex bison
@@ -62,6 +61,7 @@ If you have Ubuntu on your machine, you can skip the first step...
     b. Run a Basic check program:
     On your terminal, copy or type the following:
     ```bash
+    git clone https://github.com/theDrake1010/compiler-construction-lab.git
     cd ./checks
     ./run-check.sh
     ```
