@@ -73,3 +73,59 @@ If you have Ubuntu on your machine, you can skip the first step...
 ## WIP:
 1. [theDrake1010] : Add references
 2. [vaibhavjswl] : Add steps for MacOS
+
+
+## For Mac
+
+1. **Install [Homebrew](https://brew.sh/)** : 
+    Homebrew is a package manager for MacOS (kind of like what apt is to linux).
+    After Successfull installation move onto next step.
+
+2. Open terminal :
+
+    a. Update Brew using following commands:
+    ```bash
+    brew update 
+    brew upgrade
+    ```
+    agree with "y" if prompred and it will update brew and all its packages to latest version
+
+    b. Install Flex using following command :
+    ```bash
+    brew install flex
+    ```
+    ![Output of Installing Flex] (./images/installing flex.jpg)
+
+    c. Insall bison using following command : 
+    ```bash
+    brew install bison
+    ```
+    ![Output of Installing Flex] (./images/installing bison.jpg) 
+
+3. Do a sanity check and test run of the software:
+    a. First run a sanity check:
+    ```bash
+    which flex bison
+    ```
+    This should show you the location of installed packages usually:
+    ```bash
+    /usr/bin/flex
+    /usr/bin/bison
+    ```
+
+    b. Run a Basic check program:
+    On your terminal, copy or type the following:
+    ```bash
+    git clone https://github.com/theDrake1010/compiler-construction-lab.git
+    cd ./checks
+    bash run-check.sh
+    ```
+    The output should look like this: *If the checks directory is not modified*
+    ![Output of Running Check](./images/output mac.jpg)
+
+
+
+
+
+
+
