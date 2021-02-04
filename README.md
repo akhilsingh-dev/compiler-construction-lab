@@ -63,7 +63,7 @@ If you have Ubuntu on your machine, you can skip the first step...
     On your terminal, copy or type the following:
     ```bash
     git clone https://github.com/theDrake1010/compiler-construction-lab.git
-    cd ./checks
+    cd compiler-construction-lab/checks
     ./run-check.sh
     ```
     The output should look like this: *If the checks directory is not modified*
@@ -115,7 +115,7 @@ If you have Ubuntu on your machine, you can skip the first step...
     On your terminal, copy or type the following:
     ```bash
     git clone https://github.com/theDrake1010/compiler-construction-lab.git
-    cd ./checks
+    cd compiler-construction-lab/checks
     bash run-check.sh
     ```
     The output should look like this: *If the checks directory is not modified*
