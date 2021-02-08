@@ -11,7 +11,7 @@ Take input from console and print hello world everytime "HI" is input on the con
 
 
 ## How to make a Lex file?
-"
+
 1. Create the lex file through your terminal and open it in an editor(You can use any editor. Here its shown for "nano"):
 ```bash
 touch hello-world.l
