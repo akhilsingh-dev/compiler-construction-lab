@@ -65,6 +65,11 @@ If you have Ubuntu on your machine, you can skip the first step...
     ```bash
     git clone https://github.com/theDrake1010/compiler-construction-lab.git
     cd compiler-construction-lab/checks
+    ```
+    
+    Give the Execute permission to the run-check.sh file and run the file:
+    ``bash
+    chmod 744 ./run-check.sh
     ./run-check.sh
     ```
     The output should look like this: *If the checks directory is not modified*
@@ -121,12 +126,6 @@ If you have Ubuntu on your machine, you can skip the first step...
     ```
     The output should look like this: *If the checks directory is not modified*
     ![Output of Running Check](./images/output_mac.jpg)
-
-
-## WIP:
-1. [theDrake1010] : Add references
-2. [vaibhavjswl] : Add steps for MacOS ---> Done
-
 
 
 
