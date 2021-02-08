@@ -2,13 +2,15 @@
 
 Take input from console and print hello world everytime "HI" is input on the console.
 
-## Contents:(WIP)
+## Contents:
 - [How to make a Lex file](https://github.com/theDrake1010/compiler-construction-lab/tree/main/lab-1#how-to-make-a-lex-file)
 
 - [How to run the lex file](https://github.com/theDrake1010/compiler-construction-lab/tree/main/lab-1#how-to-run)
 
+- [Output](https://github.com/theDrake1010/compiler-construction-lab/blob/main/lab-1/hello-world.l)
 
-## How to make a Lex file:
+
+## How to make a Lex file?
 
 1. Create the lex file through your terminal:
 ```bash
@@ -26,7 +28,7 @@ touch hello-world.l
 You can see the rules inside the file [hello-world.l](https://github.com/theDrake1010/compiler-construction-lab/blob/main/lab-1/hello-world.l)
 
 
-## How to run:
+## How to run the lex file?
 
 1. Ensure you are in the directory with lex file:
 
