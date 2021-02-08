@@ -11,11 +11,15 @@ Take input from console and print hello world everytime "HI" is input on the con
 
 
 ## How to make a Lex file?
-
-1. Create the lex file through your terminal:
+"
+1. Create the lex file through your terminal and open it in an editor(You can use any editor. Here its shown for "nano"):
 ```bash
 touch hello-world.l
+nano hello-world.l
 ```
+This should open a blank text editor where you can type and save stuff. On the bottom you will see commands and what they do("^" is the control button)
+
+Eg: Ctrl+X (^X) will exit the nano editor.
 
 2. There are no global variables/definitions. 
 
@@ -25,7 +29,7 @@ touch hello-world.l
 
 4. Finally, create a main function that calls `yylex()` and returns 0.
 
-You can see the rules inside the file [hello-world.l](https://github.com/theDrake1010/compiler-construction-lab/blob/main/lab-1/hello-world.l)
+You can refer the file [hello-world.l](https://github.com/theDrake1010/compiler-construction-lab/blob/main/lab-1/hello-world.l) for more understanding.
 
 
 ## How to run the lex file?
