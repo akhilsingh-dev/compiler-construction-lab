@@ -7,7 +7,7 @@ Take input from console and print hello world everytime "HI" is input on the con
 
 - [How to run the lex file](https://github.com/theDrake1010/compiler-construction-lab/tree/main/lab-1#how-to-run)
 
-- [Output](https://github.com/theDrake1010/compiler-construction-lab/blob/main/lab-1/hello-world.l)
+- [Output](https://github.com/theDrake1010/compiler-construction-lab/tree/main/lab-1#output)
 
 
 ## How to make a Lex file?
