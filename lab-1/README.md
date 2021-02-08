@@ -3,8 +3,10 @@
 Take input from console and print hello world everytime "HI" is input on the console.
 
 ## Contents:(WIP)
-[How to make a Lex file](https://github.com/theDrake1010/compiler-construction-lab/lab-1/README.md#)
-[How to run the lex file](https://github.com/theDrake1010/compiler-construction-lab/lab-1/README.md#)
+- [How to make a Lex file](https://github.com/theDrake1010/compiler-construction-lab/tree/main/lab-1#how-to-make-a-lex-file)
+
+- [How to run the lex file](https://github.com/theDrake1010/compiler-construction-lab/tree/main/lab-1#how-to-run)
+
 
 ## How to make a Lex file:
 
@@ -21,7 +23,7 @@ touch hello-world.l
 
 4. Finally, create a main function that calls `yylex()` and returns 0.
 
-You can see the rules inside the file [hello-world.l](https://github.com/theDrake1010/compiler-construction-lab/lab-1/hello-world.l)
+You can see the rules inside the file [hello-world.l](https://github.com/theDrake1010/compiler-construction-lab/blob/main/lab-1/hello-world.l)
 
 
 ## How to run:
@@ -58,4 +60,4 @@ cc lex.yy.c -ll
 
 The result should look something like this:
 
-![hello world output](https://github.com/theDrake1010/compiler-construction-lab/images/lab-1/hello_word_output.jpg)
+![hello world output](../images/lab-1/hello_word_output.jpg)
