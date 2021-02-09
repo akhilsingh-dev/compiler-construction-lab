@@ -7,11 +7,13 @@
 This repository holds the code and instructions for the compiler construction lab (Spring 2021).
 
 
-## Resources
-Please refer the resources directory
+## Contents
 
+- [Installation for Windows10 or Ubuntu](https://github.com/theDrake1010/compiler-construction-lab#installation-for-windows10-or-ubuntu)
+- [Installation for Mac](https://github.com/theDrake1010/compiler-construction-lab#installation-for-mac)
+- [Contribute](https://github.com/theDrake1010/compiler-construction-lab#contribute)
 
-## How to install Flex and Bison?
+## Installation for Windows10 or Ubuntu
 
 Windows users need to install Ubuntu on (Windows Subsystem for Linux) WSL. 
 If you have Ubuntu on your machine, you can skip the first step...
@@ -78,7 +80,7 @@ If you have Ubuntu on your machine, you can skip the first step...
 
 
 
-## For Mac
+## Installation For Mac
 
 1. **Install [Homebrew](https://brew.sh/)** : 
     Homebrew is a package manager for MacOS (kind of like what apt is to linux).
@@ -129,4 +131,14 @@ If you have Ubuntu on your machine, you can skip the first step...
     ![Output of Running Check](./images/output_mac.jpg)
 
 
+## Contribute
 
+- For proposing changes to the source code:
+    1. Fork this repo.
+    2. Modify the repo on your fork.
+    3. Open a Pull Request with meaningful comment stating changes.
+
+
+- For reporting an issue:
+    1. Go to the [Issues](https://github.com/theDrake1010/compiler-construction-lab/issues) Page
+    2. Submit your issues with detailed report.
