@@ -1,16 +1,19 @@
 # compiler-construction-lab
 
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=theDrake1010.compiler-construction-lab)
 <a href="https://github.com/theDrake1010"><img src="https://img.shields.io/badge/Made%20by-theDrake1010-orange.svg"/></a>
 <a href="https://github.com/vaibhavjswl"><img src="https://img.shields.io/badge/Made%20by-Vaibhav_Jaiswal-blue.svg"/></a>
 
 This repository holds the code and instructions for the compiler construction lab (Spring 2021).
 
 
-## Resources
-Please refer the resources directory
+## Contents
 
+- [Installation for Windows10 or Ubuntu](https://github.com/theDrake1010/compiler-construction-lab#installation-for-windows10-or-ubuntu)
+- [Installation for Mac](https://github.com/theDrake1010/compiler-construction-lab#installation-for-mac)
+- [Contribute](https://github.com/theDrake1010/compiler-construction-lab#contribute)
 
-## How to install Flex and Bison?
+## Installation for Windows10 or Ubuntu
 
 Windows users need to install Ubuntu on (Windows Subsystem for Linux) WSL. 
 If you have Ubuntu on your machine, you can skip the first step...
@@ -64,14 +67,20 @@ If you have Ubuntu on your machine, you can skip the first step...
     ```bash
     git clone https://github.com/theDrake1010/compiler-construction-lab.git
     cd compiler-construction-lab/checks
+    ```
+    
+    Give the Execute permission to the run-check.sh file and run the file:
+    ```bash
+    chmod 744 ./run-check.sh
     ./run-check.sh
     ```
+    
     The output should look like this: *If the checks directory is not modified*
     ![Output of Running Check](./images/check_output.jpg)
 
 
 
-## For Mac
+## Installation For Mac
 
 1. **Install [Homebrew](https://brew.sh/)** : 
     Homebrew is a package manager for MacOS (kind of like what apt is to linux).
@@ -122,10 +131,14 @@ If you have Ubuntu on your machine, you can skip the first step...
     ![Output of Running Check](./images/output_mac.jpg)
 
 
-## WIP:
-1. [theDrake1010] : Add references
-2. [vaibhavjswl] : Add steps for MacOS ---> Done
+## Contribute
+
+- For proposing changes to the source code:
+    1. Fork this repo.
+    2. Modify the repo on your fork.
+    3. Open a Pull Request with meaningful comment stating changes.
 
 
-
-
+- For reporting an issue:
+    1. Go to the [Issues](https://github.com/theDrake1010/compiler-construction-lab/issues) Page
+    2. Submit your issues with detailed report.
