@@ -8,7 +8,7 @@
 %%
  //RULES
 
-[A-Z]+ {printf("%s ",yytext);}
+[A-Z]+[ \t\n\,\.] {printf("%s",yytext);}
 .   ; 
 %%
 
