@@ -12,4 +12,4 @@ gcc lex.yy.c
 
 ## Output
 
-![Capital Strings Output]("../../images/lab-2/capital_strings_output.jpg")
+![Capital Strings Output](../../images/lab-2/capital_strings_output.jpg)

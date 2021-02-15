@@ -19,4 +19,4 @@
 
 ## Output
 
-![Wellformed Paranthesis Output]("../../images/lab-2/wellformed_paranthesis_output.jpg")
+![Wellformed Paranthesis Output](../../images/lab-2/wellformed_paranthesis_output.jpg)

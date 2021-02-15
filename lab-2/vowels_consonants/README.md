@@ -20,4 +20,4 @@ Given console input, print number of vowels and consonants
 
 ## Output
 
-![Wellformed Paranthesis Output]("../../images/lab-2/vowel_consonants_output.jpg")
+![Vowel Consonants Output](../../images/lab-2/vowel_consonants_output.jpg)
