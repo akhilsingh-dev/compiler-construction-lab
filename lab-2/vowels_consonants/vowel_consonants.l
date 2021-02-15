@@ -22,16 +22,13 @@ eol \n
 
 %%
 
-int main()
-{
-
-printf("\nEnter a string : ");
-yylex();
-printf("Number of Vowels = %d \nNumber of Consonant = %d \n",vowel_count,consonant_count);
-return 0 ;
+int main() {
+    printf("\nEnter a string : ");
+    yylex();
+    printf("Number of Vowels = %d \nNumber of Consonant = %d \n",vowel_count,consonant_count);
+    return 0 ;
 }
 
-int yywrap()
-{
-return 1;
+int yywrap() {
+    return 1;
 }

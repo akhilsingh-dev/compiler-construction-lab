@@ -8,19 +8,16 @@
 %%
  //RULES
 
-[A-Z]+[ \t\n\,\.] {printf("%s",yytext);}
+[A-Z]+ {printf("%s ",yytext);}
 .   ; 
 %%
 
-int main()
-{
-
-printf("\nEnter a string with Capital words in between : ");
-yylex();
-return 0 ;
+int main() {
+    printf("\nEnter a string with Capital words in between : ");
+    yylex();
+    return 0;
 }
 
-int yywrap()
-{
-return 1;
+int yywrap() {
+    return 1;
 }
