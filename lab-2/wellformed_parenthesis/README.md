@@ -1,22 +1,19 @@
-# LAB 2 - WELL FORMEDNESS OF PARENTHESIS CHECK
+# Template README <Replace with Name>
 
+*This is a template README auto-added on push or pull request. Please complete the README or open an issue for the same.*
+<Add a short description here>
 
-## RUN THE CODE via 
-1.  Use lex to create C file via : 
-    ```bash
-    flex wellformed_parenthesis.l
-    ```
+## How to Run?
 
-2.  Use GCC to compile C file via :
-    ```bash
-    gcc lex.yy.c 
-    ```
+<Add any text instructions here>
 
-3. Run file with temp.txt as command line argument :
-    ```bash
-    ./a.out temp.txt
-    ```
+```bash
+<Add bash cmds here>
+```
+
 
 ## Output
 
-![Wellformed Paranthesis Output](../../images/lab-2/wellformed_paranthesis_output.jpg)
+<Add the output image in the holder below: (view raw)>
+
+![](../../images/lab-2/capital_strings_output.jpg)
