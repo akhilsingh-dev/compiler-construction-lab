@@ -1,5 +1,7 @@
 # compiler-construction-lab
 
+![example workflow](https://github.com/theDrake1010/compiler-construction-lab/actions/workflows/main.yml/badge.svg)
+
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=theDrake1010.compiler-construction-lab)
 <a href="https://github.com/theDrake1010"><img src="https://img.shields.io/badge/Made%20by-theDrake1010-orange.svg"/></a>
 <a href="https://github.com/vaibhavjswl"><img src="https://img.shields.io/badge/Made%20by-Vaibhav_Jaiswal-blue.svg"/></a>
