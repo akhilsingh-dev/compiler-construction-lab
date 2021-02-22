@@ -13,7 +13,7 @@ extern FILE *yyin;
 
 "(" {printf("%s",yytext);++num_brackets;}
 ")" {printf("%s",yytext);--num_brackets;}
-";" {printf(";\n");printf((num_brackets)?"Not Well Formed Equation\n":"Well Formed Equation\n");}
+";" {printf(";\n");printf((num_brackets)?"Not Well Formed Equation\n":"Well Formed Equation\n");num_brackets=0;}
 . {printf("%s",yytext);}
 %%
 
