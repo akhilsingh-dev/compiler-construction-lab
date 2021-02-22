@@ -5,7 +5,7 @@
 ## RUN THE CODE via 
 1.  Use lex to create C file via : 
     ```bash
-    flex <FILENAME>
+    flex basic_tokenizer.l
     ```
 
 2.  Use GCC to compile C file via :
