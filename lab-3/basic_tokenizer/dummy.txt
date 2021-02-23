@@ -5,6 +5,10 @@ int main() {
       scanf("%lf", &first);
       printf("Enter second number: ");
       scanf("%lf", &second);
+      /*This is a multiline comment
+      Still the same multiline comment
+      still a multiline comment*/
+
 
       // Value of first is assigned to temp
       temp = first;
@@ -14,6 +18,8 @@ int main() {
 
       // Value of temp (initial value of first) is assigned to second
       second = temp;
+      /*This is a multiline comment
+      Still the same multiline comment*/
 
       printf("\nAfter swapping, firstNumber = %.2lf\n", first);
       printf("After swapping, secondNumber = %.2lf", second);
