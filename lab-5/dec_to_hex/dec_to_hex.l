@@ -1,12 +1,21 @@
 %{
 #include <stdio.h>
+#include <stdlib.h>
+
+const char* dec_to_hex(int num){
+    char* hex = malloc(sizeof(char) * 10);
+    sprintf(hex, "%x", num);
+    return hex;
+}
 %}
 
 
-%%
-[0-9]+       {printf("0x%x",atoi(yytext));}
 
 %%
+[0-9]+       {printf("0x%s",dec_to_hex(atoi(yytext)));}
+
+%%
+
 
 
 int yywrap(){
