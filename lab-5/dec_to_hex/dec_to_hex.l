@@ -2,13 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char* dec_to_hex(int num){
-    char* hex = malloc(sizeof(char) * 10);
-    sprintf(hex, "%x", num);
-    return hex;
-}
+char* dec_to_hex(int num);
 %}
-
 
 
 %%
@@ -16,12 +11,15 @@ char* dec_to_hex(int num){
 
 %%
 
-
+char* dec_to_hex(int num){
+    char* hex = malloc(sizeof(char) * 10);
+    sprintf(hex, "%x", num);
+    return hex;
+}
 
 int yywrap(){
     return 1;
 }
-
 
 int main(){
 
