@@ -14,6 +14,7 @@ This repository holds the code and instructions for the compiler construction la
 - [Installation for Windows10 or Ubuntu](https://github.com/theDrake1010/compiler-construction-lab#installation-for-windows10-or-ubuntu)
 - [Installation for Mac](https://github.com/theDrake1010/compiler-construction-lab#installation-for-mac)
 - [Contribute](https://github.com/theDrake1010/compiler-construction-lab#contribute)
+- [Important Notes](https://github.com/theDrake1010/compiler-construction-lab#important-notes)
 
 ## Installation for Windows10 or Ubuntu
 
@@ -144,3 +145,20 @@ If you have Ubuntu on your machine, you can skip the first step...
 - For reporting an issue:
     1. Go to the [Issues](https://github.com/theDrake1010/compiler-construction-lab/issues) Page
     2. Submit your issues with detailed report.
+
+
+## Important Notes
+
+When it comes to writing files for flex, bison and modern C compilers, there are a few changes that need to be done...
+
+1. Use of "-lfl" instead of "-ly" and "-ll":
+    The newer versions of GCC use the -lfl switch instead of -ly and -ll to link the necessary files.
+
+2. Versions < 2.5.9 have a memory leak issue that needs to be manually solved by calling the `yylex_destroy()` function at end of `main()`.
+
+3. Any functions used in the `*.y` files need to be globally declared to avoid warnings. This includes `void yyerror(char*)` and `int yylex(void)` most importantly.
+
+4. `void yyerror(char*)` needs to be defined by the user as an aux function inside the `*.y` file. 
+
+More details can be obtained here: [Converting from lex & yacc to flex & bison](https://www.di-mgt.com.au/converting_from_lex_and_yacc.html)
+

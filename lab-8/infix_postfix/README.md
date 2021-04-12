@@ -5,17 +5,23 @@
 ## RUN THE CODE via 
 1.  Use lex to create C file via : 
     ```bash
-    flex <FILENAME>
+    flex infix.l
     ```
 
-2.  Use GCC to compile C file via :
+2. Use bison to create y.tab.c:
     ```bash
-    gcc lex.yy.c 
+    bison -dy infix.y
     ```
 
-3. Run file as command line argument :
+3.  Use GCC to compile C file/s via :
+
     ```bash
-    ./a.out <add any args here if needed>
+    gcc lex.yy.c infix.tab.c -lfl
+    ```
+
+4. Run file as command line argument :
+    ```bash
+    ./a.out
     ```
 
 ## Output

@@ -5,17 +5,22 @@
 ## RUN THE CODE via 
 1.  Use lex to create C file via : 
     ```bash
-    flex <FILENAME>
+    flex desk.l
     ```
 
-2.  Use GCC to compile C file via :
+2. Use bison to create y.tab.c:
     ```bash
-    gcc lex.yy.c 
+    bison -dy desk.y
     ```
 
-3. Run file as command line argument :
+3.  Use GCC to compile C file/s via :
     ```bash
-    ./a.out <add any args here if needed>
+    gcc desk.tab.c -lfl
+    ```
+
+4. Run file as command line argument :
+    ```bash
+    ./a.out
     ```
 
 ## Output
