@@ -1,40 +1,33 @@
 # for_loop
 
-<add description here>
+Create a parser that parses a "C-style" for loop
+
 
 ## RUN THE CODE via 
 1.  Use lex to create C file via : 
     ```bash
-    flex <FILENAME>.l
+    flex for.l
     ```
 
-2. Use bison to create y.tab.c:
+2. Use bison to create for.tab.c:
     ```bash
-    bison -dy <FILENAME>.y
+    bison -dy for.y
     ```
-
 
 3.  Use GCC to compile C file/s via :
-
     ```bash
-    gcc lex.yy.c <FILENAME>.tab.c -lfl
+    gcc for.tab.c -lfl
     ```
-    
-    OR
-
-    ```bash
-    gcc <FILENAME>.tab.c -lfl
-    ```
-
-depending on how you setup your code.
-
 
 4. Run file as command line argument :
     ```bash
-    ./a.out <add any args here if needed>
+    ./a.out
     ```
 
 ## Output
 
 ![for_loop output](../../images/lab-9/for_loop_output.jpg)
 
+## Notes
+
+1. The Parser does generate some Shift-Reduce and Reduce-Reduce Warnings which can be ignored for now.
